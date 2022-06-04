@@ -64,7 +64,7 @@ Feel free to add me to your groups....😇😇
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/Juliet-Pic-06-04",
-        caption=f"""""",
+        caption=f"""Thanks for having me in group.\nJuliet Music Bot is alive.\n\nFor any assistance or help, checkout our support group and channel.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
