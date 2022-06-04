@@ -44,8 +44,6 @@ Feel free to add me to your groups....😇😇
 ┣★ ᴜᴘᴅᴀᴛᴇs : [Official Channel](https://t.me/julietmusicwali)
 ┣★ sᴜᴘᴘᴏʀᴛ : [Juliet Support](https://t.me/JulietSupport)
 ┗━━━━━━━━━━━━━━━━━┛
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
 ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Romeoabhishek) ...
