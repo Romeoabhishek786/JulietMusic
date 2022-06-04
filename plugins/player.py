@@ -303,23 +303,8 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Added to Queue at » `{}` 🌷 ..."
-            title = title.title()
-    try:
-        duration_in_seconds = time_to_seconds(duration) - 3
-    except:
-        duration_in_seconds = 0
-    put = {
-        "title": title,
-        "dur": duration,
-        "streamtype": stream,
-        "by": user,
-        "chat_id": original_chat_id,
-        "file": file,
-        "vidid": vidid,
-        "seconds": duration_in_seconds,
-        "played": 0,
-    }**".format(position),
+            caption="**💥 Added to Queue at » `{}` 🌷 ...**"
+.format(position),
             reply_markup=keyboard,
         )
     else:
