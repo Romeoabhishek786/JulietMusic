@@ -64,7 +64,7 @@ Feel free to add me to your groups....😇😇
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/31739d2b9bb1803b11d3d.jpg",
-        caption=f""""""Thanks for having me in {chatname} .
+        caption=f""""""Thanks for having me in group .
 Juliet Music Bot is alive.
 
 For any assistance or help, checkout our support group and channel.,
