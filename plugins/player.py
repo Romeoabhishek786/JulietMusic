@@ -303,7 +303,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Added to Queue at » `{}` 🌷 ...
+            caption="**💥 Added to Queue at » `{}` 🌷 ..."
             title = title.title()
     try:
         duration_in_seconds = time_to_seconds(duration) - 3
