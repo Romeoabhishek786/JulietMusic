@@ -303,7 +303,23 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Ʌɗɩtyɑ🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**💥 Added to Queue at » `{}` 🌷 ...
+            title = title.title()
+    try:
+        duration_in_seconds = time_to_seconds(duration) - 3
+    except:
+        duration_in_seconds = 0
+    put = {
+        "title": title,
+        "dur": duration,
+        "streamtype": stream,
+        "by": user,
+        "chat_id": original_chat_id,
+        "file": file,
+        "vidid": vidid,
+        "seconds": duration_in_seconds,
+        "played": 0,
+    }**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -320,7 +336,23 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Juliet🤞Music 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**💥 Juliet🤞Music 🎸 Now 💞\n🔊 Playing 😍 
+           title = title.title()
+    try:
+        duration_in_seconds = time_to_seconds(duration) - 3
+    except:
+        duration_in_seconds = 0
+    put = {
+        "title": title,
+        "dur": duration,
+        "streamtype": stream,
+        "by": user,
+        "chat_id": original_chat_id,
+        "file": file,
+        "vidid": vidid,
+        "seconds": duration_in_seconds,
+        "played": 0,
+    } 🥀 ...**".format(),
            )
 
     os.remove("final.png")
