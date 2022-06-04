@@ -51,14 +51,14 @@ Feel free to add me to your groups....😇😇
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="➕ ADD Me To Your Group ➕", url="t.me/JulieMusicWaliBot?startgroup=new")
+                    InlineKeyboardButton(text="➕ ADD Me To Your Group ➕", url="t.me/JulieMusicWaliBot?startgroup=new"),
                 ],
                 [
                     InlineKeyboardButton(text="🔱 Updates 🔱", url=f"https://t.me/julietmusicwali"),
                     InlineKeyboardButton(text="🔱 Support 🔱", url=f"https://t.me/Julietsupport"),
                 ],
                 [
-                    InlineKeyboardButton(text="Bot Owner", url="t.me/Romeoabhishek")
+                    InlineKeyboardButton(text="Bot Owner", url="t.me/Romeoabhishek"),
                 ],
            ]
         ),
@@ -73,10 +73,16 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Julietsupport")
-                ]
-            ]
+                    InlineKeyboardButton(text="➕ ADD Me To Your Group ➕", url="t.me/JulieMusicWaliBot?startgroup=new"),
+                ],
+                [
+                    InlineKeyboardButton(text="🔱 Updates 🔱", url=f"https://t.me/julietmusicwali"),
+                    InlineKeyboardButton(text="🔱 Support 🔱", url=f"https://t.me/Julietsupport"),
+                ],
+                [
+                    InlineKeyboardButton(text="Bot Owner", url="t.me/Romeoabhishek"),
+                ],
+           ]
         ),
     )
 
