@@ -244,11 +244,10 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**Usage: /play [Music Name or Youtube Link or Reply to Audio]
+                "**🤖 Usage: /play [Music Name or Youtube Link or Reply to Audio]
 
 If you face any problem during play song or bot not working in your group properly join our support group.**"
-        await message.reply_photo(
-                             photo="https://telegra.ph/Juliet-Pic-06-04",     )
+            )
         await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
