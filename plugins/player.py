@@ -219,7 +219,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/Juliet-Pic-06-04"
+            thumb_name = "https://telegra.ph/file/0133c912fe21b040a31c5.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -244,7 +244,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 Give 🙃 Music 💿 Name 😍\n💞 Ƭø 🔊 Play 🌷...**"
+                "**Usage: /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you face any problem during play song or bot not working in your group properly join our support group.**"
             )
         await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
         query = message.text.split(None, 1)[1]
