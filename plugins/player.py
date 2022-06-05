@@ -246,7 +246,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 Usage: /play [Music Name or Youtube Link or Reply to Audio]
 
-If you face any problem during play song or bot not working in your group properly join our support group.**"
+If you face any problem during play song or bot not working in your group properly join our support group 🌷...**"
             )
         await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
         query = message.text.split(None, 1)[1]
